@@ -102,7 +102,7 @@ body {
 	font-family: var(--main-type);
 	font-weight: var(--grand-weight);
 	font-size: var(--ensuing-size);
-	line-height: 1.87;s
+	line-height: 1.87;
 	letter-spacing: var(--secondary-letter-spacing);
 	border-radius: 4px;
 	background: var(--accent-color);
@@ -178,9 +178,10 @@ body {
 	letter-spacing: var(--secondary-letter-spacing);
 	color: var(--surplus-white-color);
 	background-color: var(--further-color);
-	border-color: transparent;
+	border: none;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	border-radius: 4px;
+	cursor: pointer;
 }
 
 .services:hover,
