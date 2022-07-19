@@ -205,6 +205,12 @@ button {
 	font-weight:var(--staples-front-weight);
 	font-size: 44px;
 	line-height: 1.36;
+}
+.but-regist {
+	font-family: var(--main-type);
+	font-weight: var(--grand-weight);
+	font-size: var(--ensuing-size);
+	line-height: 1.87;
 	letter-spacing: var(--secondary-letter-spacing);
 	text-transform: uppercase;
 	color: var(--staple-color);
@@ -236,7 +242,6 @@ button {
 .works-datum{
 	padding-top: 94px;
 	padding-bottom: 100px;
-	/* background-color:red; */
 
 } 
 .list-datum{
@@ -332,8 +337,6 @@ flex-basis: calc((100% - 90px) / 4);
 /* ============/BODY========= */
 /* ==============PORTFOLIO========== */
 
-
-
 .gallery-services {
 	display:flex;
 	flex-wrap: wrap;
@@ -352,8 +355,6 @@ flex-basis: calc((100% - 90px) / 4);
 	padding-bottom: 6px;
 	padding-left: 26px;
 	
-	
-
 	font-weight: var(--extra-font-weight);
 	font-size: var(--ensuing-size);
 	line-height: 1.88;
