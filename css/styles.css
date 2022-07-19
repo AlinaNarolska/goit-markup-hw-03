@@ -205,6 +205,7 @@ button {
 	font-weight:var(--staples-front-weight);
 	font-size: 44px;
 	line-height: 1.36;
+	color: var(--staple-color);
 }
 .but-regist {
 	font-family: var(--main-type);
