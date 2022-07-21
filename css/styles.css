@@ -124,8 +124,7 @@ button {
 .page-header-container{
 	display: flex;
 	align-items:center;
-	padding-top: 24px;
-	padding-bottom: 24px;
+
 
 }
 .logotype {
@@ -165,7 +164,7 @@ button {
 	
 } 
  .contacts-sorce:not(:last-child){
-	margin-bottum: 9px;
+	margin-right: 50px;
 }
 
 
@@ -205,6 +204,8 @@ button {
 /* <===========================HERO========================> */
 .page-header{
 	border-bottom: 1px solid #ECECEC;
+	padding-top: 24px;
+	padding-bottom: 24px;
 	
 }
 .hero-title {
@@ -404,7 +405,7 @@ button {
 }
 .gallery-title {
 	font-weight: var(--main-font-weight);
-	font-size: var(--ensuing-size);
+	font-size: var(--secondary-size);
 	line-height: 1.87;
 	color: var(--plus-color);
 }
@@ -427,6 +428,9 @@ button {
 	text-decoration: none;
 	color: var(--staple-color);
 	
+}
+.footer-sorce:not(:last-child){
+	margin-bottom: 9px;
 }
 .contact-map {
 	font-weight: var(--secondary-font-weight);
